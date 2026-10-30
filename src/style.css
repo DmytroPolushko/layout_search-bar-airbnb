@@ -1,7 +1,4 @@
 /* add styles here */
-* {
-  box-sizing: border-box;
-}
 
 @font-face {
   font-family: Avenir;
@@ -20,12 +17,14 @@ body {
 .input-bar {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
   gap: 20px;
   padding-top: 20px;
 }
 
 .input-field {
   padding: 0;
+  box-sizing: border-box;
   color: inherit;
   font-family: inherit;
   font-weight: inherit;
